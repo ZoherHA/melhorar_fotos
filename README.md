@@ -38,7 +38,7 @@ melhorar-fotos
 ## ⚙️ Instalação e uso
 
 ### 1. Clonar o repositório
-```bash
+
 git clone https://github.com/SEU-USUARIO/melhorar-fotos.git
 cd melhorar-fotos
 
@@ -47,7 +47,6 @@ cd melhorar-fotos
 
 2. No terminal, rode um dos comandos:
 
-```bash
 python melhorar_foto.py leve
 python melhorar_foto.py medio
 python melhorar_foto.py forte
