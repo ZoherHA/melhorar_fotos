@@ -39,7 +39,8 @@ melhorar-fotos
 
 ### 1. Clonar o repositório
 
-git clone https://github.com/SEU-USUARIO/melhorar-fotos.git
+git clone https://github.com/fjavier777/melhorar-fotos.git
+
 cd melhorar-fotos
 
 ## Como usar
