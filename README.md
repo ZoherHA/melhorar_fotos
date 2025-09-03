@@ -1,3 +1,6 @@
+📸 Melhorar Fotos
+<p align="center"> <img src="https://img.shields.io/badge/python-3.11-blue?logo=python" alt="Python"> <img src="https://img.shields.io/badge/OpenCV-Enabled-green?logo=opencv" alt="OpenCV"> <img src="https://img.shields.io/badge/Pillow-Enhanced-orange?logo=pillow" alt="Pillow"> </p> <p align="center"> ✨ Projeto em Python para <b>melhorar automaticamente fotos</b> de família, comida e retratos. Ajustes de cor, brilho, contraste e nitidez com processamento em lote. </p>
+
 # Melhorar Fotos de Família 📸
 
 Este projeto aplica **ajustes fotográficos automáticos** em fotos de família, deixando-as mais vivas e profissionais, usando **Python**, **OpenCV** e **Pillow**.  
