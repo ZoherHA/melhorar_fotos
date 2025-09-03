@@ -1,0 +1,28 @@
+# created by virtualenv automatically
+*# Ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Configurações do VS Code
+.vscode/
+
+# Pastas de imagens (não versionar arquivos grandes no GitHub)
+fotos/
+fotos_melhoradas/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários de sistema
+.DS_Store
+Thumbs.db
+
